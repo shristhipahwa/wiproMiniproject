@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: plum;
+}
+#today {
+  position: absolute;
+  top: 2px;
+  right: 0;
+}
+form {
+  position: relative;
+  margin-top: 30px;
+  background-color: grey;
+  width: 60%;
+  margin-left: 20%;
+}
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 75%;
+  padding: 10px;
+  margin: 18px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: rgba(34, 33, 33, 0.24);
+  outline: none;
+  box-shadow: black 3px;
+  color: white;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+  background-color: honeydew;
+  color: black;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+
+.signupbtn {
+  width: 20%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 40px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  
+}
+.gen {
+  padding-bottom: 8px;
+}
+.error{
+  color:#800000;
+  
+}
+
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+.jumbotron {
+  padding: 40px 30px 40px 30px;
+  margin: 0px auto;
+  background: #9575cd;
+  color: floralwhite;
+  text-align:center;
+}
+.head{
+    font-size:20px;
+}
+h1{
+  font-family:inline;
+}
+
+.row-1{
+  margin: 8px ;
+  padding: 8px ;
+}
+.styling{
+  padding:2px ;
+   margin: 2px auto;
+    font-family:inline;
+}
+.footer {
+  background-color: #d1c4e9;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
