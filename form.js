@@ -55,7 +55,7 @@ function validateForm() {
     document.getElementById("mobileno._error").innerHTML = "";
   } else {
     document.getElementById("number_error").innerHTML =
-      "Number should be in proper format";
+      "formats- xxx.xxx.xxxx or xxx xxx xxxx or xxx-xxx-xxxx are accepted";
     return false;
   }
 
